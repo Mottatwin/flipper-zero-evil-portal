@@ -7,17 +7,25 @@
             background-color: #000;
             color: #0F0;
             font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            flex-direction: column;
+            text-align: center;
         }
         #terminal {
             white-space: pre;
             overflow: hidden;
             margin: 0 auto;
             padding: 10px;
+            border: 1px solid #0F0;
+            width: 80%;
+            max-width: 600px;
         }
         #connectBtn {
-            display: block;
-            position: absolute;
-            left: 20px;
+            display: inline-block;
             background: #0F0;
             padding: 10px 20px;
             color: #000;
